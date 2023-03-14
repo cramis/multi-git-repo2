@@ -1,0 +1,8 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add remote1 https://github.com/cramis/multi-git-repo1.git
+git remote add remote2 https://github.com/cramis/multi-git-repo2.git
+git push remote1
+git push --set-upstream remote2 main
